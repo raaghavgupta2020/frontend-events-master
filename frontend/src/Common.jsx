@@ -15,11 +15,11 @@ function Common() {
 
                 <button className="relative bg-blue-500 w-60 h-60 text-2xl hover:bg-blue-700 text-white mx-5 font-bold px-4 rounded">
 
-                    <Link to="/loginuser">
+                    <Link to="/studentlogin">
                         Participant
                     </Link>
                 </button>
-                <Link to="/logincreator">
+                <Link to="/adminlogin">
                     <button className="relative bg-yellow-300 h-60	w-60  text-2xl  hover:bg-yellow-400 text-white mx-5 font-bold px-4 rounded">
                         Admin
                     </button>
