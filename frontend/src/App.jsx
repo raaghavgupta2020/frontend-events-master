@@ -31,8 +31,8 @@ class App extends Component {
 					<Route exact path="/logincreator" component={CreatorLogin} />
 					<Route exact path="/signupform" component={SignupForm} />
 					<Route exact path="/home" component={home} />
-					<Route exact path="/newstudent" component={home} />
-					<Route exact path="/studentlogin" component={Student_SignIn}/>
+					<Route exact path="/newstudent" component={Student_SignIn} />
+					<Route exact path="/studentlogin" component={New_Login}/>
 					<Route exact path="/adminlogin" component={Admin_Login}/>
 					{/* <Route path="/creator/:id" component={creatorprofile} /> */}
 					<Route path="/dashboard" component={Dashboard} />

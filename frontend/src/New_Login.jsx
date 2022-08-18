@@ -40,7 +40,7 @@ function New_Login(props) {
                     className="mt-8 border rounded p-2 text-black"
                     value={reg_no}
                     onChange={(e) => setRegno(e.target.value)}
-                    required
+                    // required
                   />
                 </div>
     
@@ -54,7 +54,7 @@ function New_Login(props) {
                     className="mt-8 border rounded p-2 text-black"
                     value={password}
                     onChange={(e) => setPassword(e.target.value)}
-                    required
+                    // required
                   />
                 </div>
     

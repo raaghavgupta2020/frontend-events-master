@@ -7,6 +7,8 @@ import { Link } from 'react-router-dom';
 function Student_SignIn(props) {
     const [reg_no, setRegno] = useState("");
     const [password, setPassword] = useState(""); 
+    const [email,setEmail]=useState("");
+    const [name,setname]=useState("");
     const Handle = async (e) => {
 		e.preventDefault();
 	}	
@@ -22,14 +24,12 @@ function Student_SignIn(props) {
     
     return (
         <div className="w-full h-screen">
-           
-          <div className="h-1/10 text-center border-black">
-          <div className='items-center'>
-            <h1 className='text-5xl pt-4 self-center font-bold tracking-wider relative top-12'>Student Login Page</h1>
-          </div>
           
+          <div className="h-1/10 text-center border-black">
+          <h1 className='text-5xl pt-4 self-center font-bold tracking-wider relative top-12'>Student SignIn Page</h1>
             <div className="text-center w-full items-center text-sm">
               <form className="w-5/5 rounded-none ">
+              
                 <div className="input-field divname mt-40">
                   <label className="m-2 p-5 text-xl " htmlFor="name">
                     Username
@@ -40,6 +40,33 @@ function Student_SignIn(props) {
                     className="mt-8 border rounded p-2 text-black"
                     value={reg_no}
                     onChange={(e) => setRegno(e.target.value)}
+                    
+                  />
+                </div>
+                <div className="input-field">
+                  <label className="m-2 p-5 text-xl " htmlFor="password">
+                    Name
+                  </label>
+                  <input
+                    type="text"
+                    placeholder="Name"
+                    className="mt-8 ml-12 border rounded p-2 text-black "
+                    value={name}
+                    onChange={(e) => setPassword(e.target.value)}
+                    required
+                  />
+                </div>
+    
+                <div className="input-field">
+                  <label className="m-2 p-5 text-xl " htmlFor="password">
+                    Email
+                  </label>
+                  <input
+                    type="email"
+                    placeholder="Email"
+                    className="mt-8 ml-12 border rounded p-2 text-black "
+                    value={email}
+                    onChange={(e) => setPassword(e.target.value)}
                     required
                   />
                 </div>
@@ -51,30 +78,24 @@ function Student_SignIn(props) {
                   <input
                     type="password"
                     placeholder="Password"
-                    className="mt-8 border rounded p-2 text-black"
+                    className="mt-8 border rounded p-2 text-black "
                     value={password}
                     onChange={(e) => setPassword(e.target.value)}
-                    required
-                  />
+                    required                  />
                 </div>
+                
     
                 <div className="mt-4">
+                  
                   <button
-                    className=" font-bold mt-4 ml-auto bg-gray-800 text-white rounded p-4 pt-4 shadow-lg "
-                    
-                  >
-                  <Link to="/newStudent">
-                    Sign In
-                  </Link>
-                  </button>
-
-                  <button
-                    className="font-bold mt-4 ml-36 bg-gray-800 text-white rounded p-4 pt-4 shadow-lg"
+                    className="font-bold mt-4 ml-30 bg-gray-800 text-white rounded p-4 pt-4 shadow-lg"
                     onClick={(e) => {
                       Handle(e);
                     }}
                   >
-                    Log In
+                  <Link to="/studentlogin">
+                    Submit
+                    </Link>
                   </button>
                   <br></br>
                   
@@ -89,5 +110,5 @@ function Student_SignIn(props) {
 }
 
 
-export default Student_SignIn
+export default Student_SignIn;
 
