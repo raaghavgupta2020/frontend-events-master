@@ -11,17 +11,16 @@ export default function Home() {
       <div className="container">
         <div className="content">
           <h1>
-            Warrantify<br></br>
+            Eventify<br></br>
             </h1>
             <h3>
-            Say GoodBye to Paper Warranty !
+            Solving your event management problems 
           </h3> 
           <p>
-            Don't worry about the authenticity of products anymore<br/>
-            Buy and sell your products using the simplest GUI ever<br/>
-            List your company with least listing amount <br/>
-            Get digital warranty cards for all your products<br/>
-            Transfer your warranty cards to your loved ones
+            Admins can list various events with proper details<br/>
+            Participants can register for any number of events <br/>
+            Each participant gets a unique token to enter an event <br/>
+            One stop event management<br/>
           </p>
           <div className="buttons">
           <Link to="/landingPage">

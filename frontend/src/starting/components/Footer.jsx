@@ -35,7 +35,7 @@ export default function Footer() {
     <Container>
       <div className="row">
         <div className="brand">
-          <img src={logo} alt="logo" />
+          {/* <img src={logo} alt="logo" /> */}
         </div>
         <p className="description">Vellore Institue of Technology,Vellore</p>
         <div className="social-icons">
@@ -45,19 +45,19 @@ export default function Footer() {
         </div>
       </div>
       <div className="row">
-        <h3>Our Services</h3>
+        {/* <h3>Our Services</h3> */}
         <ul className="list">
-          {servicesLinks.map((link) => {
+          {/* {servicesLinks.map((link) => {
             return <li key={link}>{link}</li>;
-          })}
+          })} */}
         </ul>
       </div>
       <div className="row">
-        <h3>Company</h3>
+        {/* <h3>Company</h3> */}
         <ul className="list">
-          {companyLinks.map((link) => {
+          {/* {companyLinks.map((link) => {
             return <li key={link}>{link}</li>;
-          })}
+          })} */}
         </ul>
       </div>
       <div className="row">

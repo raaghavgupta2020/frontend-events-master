@@ -13,7 +13,7 @@ export default function App() {
       <Home />
       <CreateAndSell />
       <Choose />
-      <Subscribe />
+      {/* <Subscribe /> */}
       <Footer />
     </div>
   );

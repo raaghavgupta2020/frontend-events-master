@@ -9,30 +9,30 @@ export default function CreateAndSell() {
   const data = [
     {
       image: sell1,
-      title: "About Warrantify",
+      title: "Small description about Eventify",
       description:
-        "The Digital Warrant is a NFT-based digital card that guarantees the products purchased from Warrantify.",
+        "One stop for all your events , A complete evenet management website",
       
     },
     {
       image: sell2,
-      title: "Add your Products",
+      title: "Admins can add events (CRUD) ",
       description:
-        "Warrantify provides Buyer an easy method to add their products , attach photos , write a short description and add to buyer's list.",
+        "Create , read , update or delete an event. Admin has to verify each user for an event",
       
     },
     {
       image: sell3,
-      title: "Return or Resale your warranty card",
+      title: "Registering made easy",
       description:
-        "After purchasing the product you will be allowed to add friends, so that you can resale your digital warranty card",
+        "Register for an event and get entry using your unique token",
       
     },
   ];
   return (
     <Section>
       <div className="title">
-        <h2>Buy and Sell Your Products</h2>
+        <h2>Listing and registering events made easy</h2>
       </div>
       <div className="container">
         <div className="ellipse"></div>

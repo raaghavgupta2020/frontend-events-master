@@ -19,9 +19,22 @@ export default function Choose() {
         <h2>Why should you Choose Our Website ?</h2>
 
         <p>
-        NFTs cannot be falsified.
-A warranty on this NFT DApp is standardized, no matter who issued it or when.
-Finding bad-acting dealers will be simpler since it is easier to scan the blockchain for anomalous behaviors such as multiple warranty NFTs for the same product serial number.
+          *_*<br/>
+          *_*<br/>
+          *_*<br/>
+          *_*<br/>
+          *_*<br/>
+          *_*<br/>
+          *_*<br/>
+          *_*<br/>
+          *_*<br/>
+          *_*<br/>
+          *_*<br/>
+          *_*<br/>
+          *_*<br/>
+          *_*<br/>
+          *_*<br/>
+          *_*<br/>
         </p>
         
         {/* <Button text="Read More" blue /> */}
