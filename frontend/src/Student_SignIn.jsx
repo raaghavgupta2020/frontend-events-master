@@ -26,7 +26,7 @@ function Student_SignIn(props) {
         <div className="w-full h-screen">
           
           <div className="h-1/10 text-center border-black">
-          <h1 className='text-5xl pt-4 self-center font-bold tracking-wider relative top-12'>Student SignIn Page</h1>
+          <h1 className='text-4xl pt-4 self-center font-bold tracking-wider relative top-12'>Participant SignIn Page</h1>
             <div className="text-center w-full items-center text-sm">
               <form className="w-5/5 rounded-none ">
               

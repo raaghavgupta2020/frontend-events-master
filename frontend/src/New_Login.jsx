@@ -25,7 +25,7 @@ function New_Login(props) {
            
           <div className="h-1/10 text-center border-black">
           <div className='items-center'>
-            <h1 className='text-5xl pt-4 self-center font-bold tracking-wider relative top-12'>Student Login Page</h1>
+            <h1 className='text-5xl pt-4 self-center font-bold tracking-wider relative top-12'>Participant Login Page</h1>
           </div>
           
             <div className="text-center w-full items-center text-sm">
