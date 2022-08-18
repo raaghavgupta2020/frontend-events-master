@@ -22,20 +22,20 @@ export default function SignupForm() {
 		wallet_address: "",
 	});
 
-	// async function onChange(e) {
-	// 	const file = e.target.files[0];
-	// 	console.log("inside onchange");
-	// 	try {
-	// 		const added = await client.add(file, {
-	// 			progress: (prog) => console.log(`received: ${prog}`),
-	// 		});
-	// 		const url = `https://ipfs.infura.io/ipfs/${added.path}`;
-	// 		console.log(url);
-	// 		setFileUrl(url);
-	// 	} catch (error) {
-	// 		console.log("Error uploading file: ", error);
-	// 	}
-	// }
+	async function onChange(e) {
+		const file = e.target.files[0];
+		console.log("inside onchange");
+		try {
+			const added = await client.add(file, {
+				progress: (prog) => console.log(`received: ${prog}`),
+			});
+			const url = `https://ipfs.infura.io/ipfs/${added.path}`;
+			console.log(url);
+			setFileUrl(url);
+		} catch (error) {
+			console.log("Error uploading file: ", error);
+		}
+	}
 	// async function uploadToIPFS() {
 	// 	const { name, description, price, email_id } = formInput;
 	// 	if (!name || !description || !price || !fileUrl || !email_id) return;
@@ -110,14 +110,14 @@ export default function SignupForm() {
 					<input type="file" name="Asset" className="my-4" onChange={onChange} />
 					{fileUrl && <img className="rounded mt-4" width="350" src={fileUrl} />}
 					<button
-						onClick={listNFTForSale}
+						// onClick={listNFTForSale}
 						className="font-bold mt-4 bg-gray-800 text-white rounded p-4 shadow-lg"
 					>
 						Add company profile
 					</button>
 				</div>
 			</div>
-			<ToastContainer />
+			{/* <ToastContainer /> */}
 		</>
 	);
 }

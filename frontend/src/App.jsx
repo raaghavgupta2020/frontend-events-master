@@ -29,11 +29,12 @@ class App extends Component {
 					<Route exact path="/landingPage" component={Common} />
 					<Route exact path="/loginuser" component={Login} />
 					<Route exact path="/logincreator" component={CreatorLogin} />
-					<Route exact path="/signupform" component={SignupForm} />
+					
 					<Route exact path="/home" component={home} />
 					<Route exact path="/newstudent" component={Student_SignIn} />
 					<Route exact path="/studentlogin" component={New_Login}/>
 					<Route exact path="/adminlogin" component={Admin_Login}/>
+					<Route exact path="/signupform" component={SignupForm} />
 					{/* <Route path="/creator/:id" component={creatorprofile} /> */}
 					<Route path="/dashboard" component={Dashboard} />
 					<Route path="/nftmint" component={creatorNFTMint} />
