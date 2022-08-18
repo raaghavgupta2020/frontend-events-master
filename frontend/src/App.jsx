@@ -14,8 +14,11 @@ import AdminItems from "./components/AdminItems";
 import UserNFT from "./components/UserNFT";
 import Start from "../src/starting/Start"
 import sample from "./sample";
+import New_Login from "./New_Login";
+import Student_SignIn from "./Student_SignIn";
 // import { Resale } from "./Resale";
 import Resale from "./Resale";
+import Admin_Login from "./Admin_Login";
 class App extends Component {
 	render() {
 		return (
@@ -28,6 +31,9 @@ class App extends Component {
 					<Route exact path="/logincreator" component={CreatorLogin} />
 					<Route exact path="/signupform" component={SignupForm} />
 					<Route exact path="/home" component={home} />
+					<Route exact path="/newstudent" component={home} />
+					<Route exact path="/studentlogin" component={Student_SignIn}/>
+					<Route exact path="/adminlogin" component={Admin_Login}/>
 					{/* <Route path="/creator/:id" component={creatorprofile} /> */}
 					<Route path="/dashboard" component={Dashboard} />
 					<Route path="/nftmint" component={creatorNFTMint} />
